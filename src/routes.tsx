@@ -1,54 +1,65 @@
 import React from 'react';
 
-// Admin Imports
-
 // Icon Imports
 import {
   MdHome,
-  MdOutlineShoppingCart,
+  MdCategory,
+  MdReceiptLong,
+  MdInventory,
+  MdInventory2,
+  MdCampaign,
   MdBarChart,
-  MdPerson,
-  MdLock,
+  MdAutoAwesome,
 } from 'react-icons/md';
 
 const routes = [
   {
-    name: 'Main Dashboard',
+    name: 'Dashboard',
     layout: '/admin',
-    path: 'default',
+    path: 'senjamart',
     icon: <MdHome className="h-6 w-6" />,
   },
   {
-    name: 'NFT Marketplace',
+    name: 'Produk',
     layout: '/admin',
-    path: 'nft-marketplace',
-    icon: <MdOutlineShoppingCart className="h-6 w-6" />,
-
-    secondary: true,
+    path: 'senjamart/products',
+    icon: <MdInventory2 className="h-6 w-6" />,
   },
   {
-    name: 'Data Tables',
+    name: 'Stok',
     layout: '/admin',
+    path: 'senjamart/inventory',
+    icon: <MdInventory className="h-6 w-6" />,
+  },
+  {
+    name: 'Kategori',
+    layout: '/admin',
+    path: 'senjamart/categories',
+    icon: <MdCategory className="h-6 w-6" />,
+  },
+  {
+    name: 'Pesanan',
+    layout: '/admin',
+    path: 'senjamart/orders',
+    icon: <MdReceiptLong className="h-6 w-6" />,
+  },
+  {
+    name: 'Laporan',
+    layout: '/admin',
+    path: 'senjamart/reports',
     icon: <MdBarChart className="h-6 w-6" />,
-    path: 'data-tables',
   },
   {
-    name: 'Profile',
+    name: 'Marketing',
     layout: '/admin',
-    path: 'profile',
-    icon: <MdPerson className="h-6 w-6" />,
+    path: 'senjamart/marketing',
+    icon: <MdCampaign className="h-6 w-6" />,
   },
   {
-    name: 'Sign In',
-    layout: '/auth',
-    path: 'sign-in',
-    icon: <MdLock className="h-6 w-6" />,
-  },
-  {
-    name: 'RTL Admin',
-    layout: '/rtl',
-    path: 'rtl-default',
-    icon: <MdHome className="h-6 w-6" />,
+    name: 'AI Agent',
+    layout: '/admin',
+    path: 'senjamart/ai',
+    icon: <MdAutoAwesome className="h-6 w-6" />,
   },
 ];
 export default routes;

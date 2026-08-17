@@ -10,6 +10,55 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        dm: ['DM Sans', 'sans-serif'],
+      },
+      // Senja Mart storefront palette (from the FreshCart template).
+      // Namespaced under `fresh` so it never collides with the Horizon admin
+      // theme. Example usage: bg-fresh-green-600, text-fresh-gray-800.
+      colors: {
+        fresh: {
+          gray: {
+            50: '#F9F9F9',
+            100: '#f0f3f2',
+            200: '#ecf0ef',
+            300: '#dfe2e1',
+            400: '#c1c7c6',
+            500: '#889397',
+            600: '#5c6c75',
+            700: '#3d4f58',
+            800: '#21313c',
+            900: '#001e2b',
+            950: '#00131C',
+          },
+          green: {
+            50: '#e8ffe6',
+            100: '#cefdca',
+            200: '#a2fb9b',
+            300: '#68f561',
+            400: '#37ea31',
+            500: '#16d012',
+            600: '#0aad0a',
+            700: '#0d7e0f',
+            800: '#106412',
+            900: '#135416',
+            950: '#042f07',
+          },
+          red: {
+            50: '#fef2f2',
+            100: '#fee2e2',
+            500: '#ef4444',
+            600: '#dc2626',
+            700: '#b91c1c',
+            800: '#991b1b',
+          },
+          yellow: {
+            500: '#eab308',
+          },
+        },
+      },
       width: {
         '1p': '1%',
         '2p': '2%',
@@ -111,24 +160,10 @@ module.exports = {
         '98p': '98%',
         '99p': '99%',
       },
-      fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-        dm: ['DM Sans', 'sans-serif'],
-      },
       boxShadow: {
         '3xl': '14px 17px 40px 4px',
         inset: 'inset 0px 18px 22px',
         darkinset: '0px 4px 4px inset',
-      },
-      backgroundImage: {
-        ballanceDashboard: "url('/src//public/img/dashboards/balanceImg.png')",
-        ellispisModeCarInterface:
-          "url('https://i.ibb.co/Y3nrFfd/elipse-light.png')",
-        ellispisModeCarInterfaceDark:
-          "url('https://i.ibb.co/g66yJnm/Ellipse-94.png')",
-        homeButton:
-          'linear-gradient(112.83deg, rgba(255, 255, 255, 0.52) 0%, rgba(255, 255, 255, 0) 110.84%)',
-        smartHomeDropzone: `url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='13' ry='13' stroke='%23E0E5F2FF' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='5' stroke-linecap='square'/%3e%3c/svg%3e")`,
       },
     },
     screens: {

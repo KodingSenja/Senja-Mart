@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": ".ai-test-dist",
+    "rootDir": "src/lib/ai",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "incremental": false,
+    "composite": false,
+    "declaration": false,
+    "sourceMap": false
+  },
+  "include": ["src/lib/ai/**/*.ts"]
+}

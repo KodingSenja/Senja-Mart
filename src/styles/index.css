@@ -28,10 +28,95 @@ input.defaultCheckbox::before {
   transform: translate(-50%, 0px);
 }
 
-input.defaultCheckbox::before path {
-  fill: currentColor;
-}
-
 input:checked.defaultCheckbox::before {
   opacity: 1;
+}
+
+/* =====================================================================
+   Print — SenjaMart report
+   Only the .print-report area prints; sidebar, navbar, footer and page
+   controls are hidden. Colors are forced to a clean light A4 look while
+   brand accents (bars/links) and status badges keep their colors.
+   ===================================================================== */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .print-report,
+  .print-report * {
+    visibility: visible;
+  }
+  .print-report {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+  .print-report,
+  .print-report * {
+    background: #ffffff !important;
+    color: #1e293b !important;
+    border-color: #e2e8f0 !important;
+    box-shadow: none !important;
+  }
+  /* keep brand accents */
+  .print-report .bg-brand-500,
+  .print-report .bg-brand-600 {
+    background-color: #4318ff !important;
+  }
+  .print-report .text-brand-500 {
+    color: #4318ff !important;
+  }
+  .print-report .bg-brand-50 {
+    background-color: #eef2ff !important;
+  }
+  /* keep status / payment badge colors readable */
+  .print-report .bg-green-100 {
+    background-color: #dcfce7 !important;
+  }
+  .print-report .text-green-700 {
+    color: #15803d !important;
+  }
+  .print-report .bg-yellow-100 {
+    background-color: #fef9c3 !important;
+  }
+  .print-report .text-yellow-700 {
+    color: #a16207 !important;
+  }
+  .print-report .bg-red-100 {
+    background-color: #fee2e2 !important;
+  }
+  .print-report .text-red-700 {
+    color: #b91c1c !important;
+  }
+  .print-report .bg-blue-100 {
+    background-color: #dbeafe !important;
+  }
+  .print-report .text-blue-700 {
+    color: #1d4ed8 !important;
+  }
+  .print-report .bg-indigo-100 {
+    background-color: #e0e7ff !important;
+  }
+  .print-report .text-indigo-700 {
+    color: #4338ca !important;
+  }
+  .print-report .bg-orange-100 {
+    background-color: #ffedd5 !important;
+  }
+  .print-report .text-orange-700 {
+    color: #c2410c !important;
+  }
+  .print-report .bg-gray-100 {
+    background-color: #f1f5f9 !important;
+  }
+  .print-report .text-gray-600,
+  .print-report .text-gray-700 {
+    color: #475569 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
 }

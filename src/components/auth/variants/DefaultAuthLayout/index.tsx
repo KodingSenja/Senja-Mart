@@ -1,4 +1,4 @@
-import authImg from '/public/img/auth/auth.png';
+const authImg = '/img/auth/auth.png';
 import NavLink from 'components/link/NavLink';
 import Footer from 'components/footer/FooterAuthDefault';
 function Default(props: { maincard: JSX.Element }) {
@@ -32,7 +32,7 @@ function Default(props: { maincard: JSX.Element }) {
             >
               <div className="relative flex h-full w-full">
                 <div
-                  style={{ backgroundImage: `url(${authImg.src})` }}
+                  style={{ backgroundImage: `url(${authImg})` }}
                   className="flex h-full w-full bg-cover"
                 />
               </div>

@@ -1,0 +1,1083 @@
+{
+  "exported_at": "2026-08-14T12:42:37.017Z",
+  "orders": [
+    {
+      "id": "d66e8e82-7d57-4cec-9ec7-3c5ea21a3ca8",
+      "user_id": "20c05e3f-7958-40b7-81c3-2e086e4ac2a4",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 25000,
+      "shipping_cost": 12000,
+      "total": 37000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "IT Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 1",
+        "postal_code": "12345"
+      },
+      "created_at": "2026-08-10T12:20:27.606935+00:00",
+      "updated_at": "2026-08-10T12:20:27.606935+00:00",
+      "order_number": "SJ-20260810-D0D70C"
+    },
+    {
+      "id": "a0eaf66b-fadf-48d2-9781-3b9faeda412d",
+      "user_id": "20c05e3f-7958-40b7-81c3-2e086e4ac2a4",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 400000,
+      "shipping_cost": 0,
+      "total": 400000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "IT Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 1",
+        "postal_code": "12345"
+      },
+      "created_at": "2026-08-10T12:20:27.92082+00:00",
+      "updated_at": "2026-08-10T12:20:27.92082+00:00",
+      "order_number": "SJ-20260810-296BC3"
+    },
+    {
+      "id": "f657511f-9a23-4ce9-8b36-38ef5638d1c0",
+      "user_id": "20c05e3f-7958-40b7-81c3-2e086e4ac2a4",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 50000,
+      "shipping_cost": 12000,
+      "total": 62000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "IT Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 1",
+        "postal_code": "12345"
+      },
+      "created_at": "2026-08-10T12:20:28.233174+00:00",
+      "updated_at": "2026-08-10T12:20:28.233174+00:00",
+      "order_number": "SJ-20260810-C09873"
+    },
+    {
+      "id": "58768167-f52c-4e4f-981b-9baa88d307c7",
+      "user_id": "bbfb2de1-4f79-4c94-acf6-52d66b3216b0",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 25000,
+      "shipping_cost": 12000,
+      "total": 37000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "IT Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 1",
+        "postal_code": "12345"
+      },
+      "created_at": "2026-08-10T12:34:32.306778+00:00",
+      "updated_at": "2026-08-10T12:34:32.306778+00:00",
+      "order_number": "SJ-20260810-B0E29D"
+    },
+    {
+      "id": "7d3614fa-b336-4859-add5-f36c6a8a3a48",
+      "user_id": "bbfb2de1-4f79-4c94-acf6-52d66b3216b0",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 400000,
+      "shipping_cost": 0,
+      "total": 400000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "IT Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 1",
+        "postal_code": "12345"
+      },
+      "created_at": "2026-08-10T12:34:32.620562+00:00",
+      "updated_at": "2026-08-10T12:34:32.620562+00:00",
+      "order_number": "SJ-20260810-7695F0"
+    },
+    {
+      "id": "b802fe66-4e80-4e99-a1ab-0bd7b867cdca",
+      "user_id": "bbfb2de1-4f79-4c94-acf6-52d66b3216b0",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 50000,
+      "shipping_cost": 12000,
+      "total": 62000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "IT Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 1",
+        "postal_code": "12345"
+      },
+      "created_at": "2026-08-10T12:34:32.932756+00:00",
+      "updated_at": "2026-08-10T12:34:32.932756+00:00",
+      "order_number": "SJ-20260810-286006"
+    },
+    {
+      "id": "1a03818a-8cd0-403f-87c7-2ab781721768",
+      "user_id": "f239d7b1-9a84-4f1c-8e1f-dd95709393ab",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 25000,
+      "shipping_cost": 12000,
+      "total": 37000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "IT Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 1",
+        "postal_code": "12345"
+      },
+      "created_at": "2026-08-10T12:43:32.144962+00:00",
+      "updated_at": "2026-08-10T12:43:32.144962+00:00",
+      "order_number": "SJ-20260810-61CE3C"
+    },
+    {
+      "id": "c344c391-a73e-4465-ad5c-6c241dd42efa",
+      "user_id": "f239d7b1-9a84-4f1c-8e1f-dd95709393ab",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 400000,
+      "shipping_cost": 0,
+      "total": 400000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "IT Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 1",
+        "postal_code": "12345"
+      },
+      "created_at": "2026-08-10T12:43:32.458044+00:00",
+      "updated_at": "2026-08-10T12:43:32.458044+00:00",
+      "order_number": "SJ-20260810-C4E56E"
+    },
+    {
+      "id": "58e4326d-5be8-415b-972f-2da699413bd9",
+      "user_id": "f239d7b1-9a84-4f1c-8e1f-dd95709393ab",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 50000,
+      "shipping_cost": 12000,
+      "total": 62000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "IT Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 1",
+        "postal_code": "12345"
+      },
+      "created_at": "2026-08-10T12:43:32.767163+00:00",
+      "updated_at": "2026-08-10T12:43:32.767163+00:00",
+      "order_number": "SJ-20260810-49707E"
+    },
+    {
+      "id": "456c4084-c433-4e5f-b4fe-a2cc5c748d5d",
+      "user_id": "242b67d3-4deb-42a8-8abe-8fd4c4d37956",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 90000,
+      "shipping_cost": 12000,
+      "total": 102000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "E2E Test Customer",
+        "phone": "081234567890",
+        "address": "Jl. E2E Test No. 1",
+        "postalCode": "12345"
+      },
+      "created_at": "2026-08-10T13:22:09.223075+00:00",
+      "updated_at": "2026-08-10T13:22:09.223075+00:00",
+      "order_number": "SJ-20260810-6F9425"
+    },
+    {
+      "id": "51fd530e-3811-4832-94fc-db4ad9ebd922",
+      "user_id": "e885d891-d87a-434e-8c8a-cb27a98233f7",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 25000,
+      "shipping_cost": 12000,
+      "total": 37000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "IT Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 1",
+        "postal_code": "12345"
+      },
+      "created_at": "2026-08-10T13:30:47.40808+00:00",
+      "updated_at": "2026-08-10T13:30:47.40808+00:00",
+      "order_number": "SJ-20260810-7A5009"
+    },
+    {
+      "id": "5042348f-5392-4d28-8318-b1dd667bdc7e",
+      "user_id": "e885d891-d87a-434e-8c8a-cb27a98233f7",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 400000,
+      "shipping_cost": 0,
+      "total": 400000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "IT Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 1",
+        "postal_code": "12345"
+      },
+      "created_at": "2026-08-10T13:30:47.712798+00:00",
+      "updated_at": "2026-08-10T13:30:47.712798+00:00",
+      "order_number": "SJ-20260810-2FA086"
+    },
+    {
+      "id": "1590bb10-f140-42c8-8419-b330c4465ddb",
+      "user_id": "e885d891-d87a-434e-8c8a-cb27a98233f7",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 50000,
+      "shipping_cost": 12000,
+      "total": 62000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "IT Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 1",
+        "postal_code": "12345"
+      },
+      "created_at": "2026-08-10T13:30:48.018439+00:00",
+      "updated_at": "2026-08-10T13:30:48.018439+00:00",
+      "order_number": "SJ-20260810-4C7440"
+    },
+    {
+      "id": "58d0e99a-b834-4df8-a961-3f5c4e0d5b27",
+      "user_id": "c245f144-b1e1-44d5-872c-4b9e777888da",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 90000,
+      "shipping_cost": 12000,
+      "total": 102000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "E2E Test Customer",
+        "phone": "081234567890",
+        "address": "Jl. E2E Test No. 1",
+        "postalCode": "12345"
+      },
+      "created_at": "2026-08-10T13:31:46.220732+00:00",
+      "updated_at": "2026-08-10T13:31:46.220732+00:00",
+      "order_number": "SJ-20260810-A3A6FE"
+    },
+    {
+      "id": "de2dd161-ba66-4215-b573-ab11913c63ab",
+      "user_id": "9fafdcd1-c06b-4791-9d97-919090556268",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 50000,
+      "shipping_cost": 12000,
+      "total": 62000,
+      "shipping_address": {
+        "city": "Bandung",
+        "name": "HD Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 2",
+        "postal_code": "40111"
+      },
+      "created_at": "2026-08-10T13:58:49.739281+00:00",
+      "updated_at": "2026-08-10T13:58:49.739281+00:00",
+      "order_number": "SJ-20260810-2BE62C"
+    },
+    {
+      "id": "b96d2174-d6a2-4fb2-b026-abb2dd0687cf",
+      "user_id": "147e9520-9f75-44a7-9715-db66ee7a7336",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 25000,
+      "shipping_cost": 12000,
+      "total": 37000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "IT Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 1",
+        "postal_code": "12345"
+      },
+      "created_at": "2026-08-10T13:59:13.1887+00:00",
+      "updated_at": "2026-08-10T13:59:13.1887+00:00",
+      "order_number": "SJ-20260810-EAB32A"
+    },
+    {
+      "id": "64443646-2b49-4688-b253-2ea59c159a79",
+      "user_id": "147e9520-9f75-44a7-9715-db66ee7a7336",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 400000,
+      "shipping_cost": 0,
+      "total": 400000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "IT Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 1",
+        "postal_code": "12345"
+      },
+      "created_at": "2026-08-10T13:59:13.499676+00:00",
+      "updated_at": "2026-08-10T13:59:13.499676+00:00",
+      "order_number": "SJ-20260810-77BAAE"
+    },
+    {
+      "id": "a0af3173-1ada-463c-af66-f68eff7579d8",
+      "user_id": "147e9520-9f75-44a7-9715-db66ee7a7336",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 50000,
+      "shipping_cost": 12000,
+      "total": 62000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "IT Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 1",
+        "postal_code": "12345"
+      },
+      "created_at": "2026-08-10T13:59:13.815442+00:00",
+      "updated_at": "2026-08-10T13:59:13.815442+00:00",
+      "order_number": "SJ-20260810-0A3964"
+    },
+    {
+      "id": "3201e972-bb0c-47b8-82fc-1318333ae386",
+      "user_id": "daa74d6f-4f43-482e-86d9-8a738d331a1e",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 90000,
+      "shipping_cost": 12000,
+      "total": 102000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "E2E Test Customer",
+        "phone": "081234567890",
+        "address": "Jl. E2E Test No. 1",
+        "postalCode": "12345"
+      },
+      "created_at": "2026-08-10T14:00:16.284268+00:00",
+      "updated_at": "2026-08-10T14:00:16.284268+00:00",
+      "order_number": "SJ-20260810-9A3751"
+    },
+    {
+      "id": "7e83c3aa-759b-4f83-9f5b-567fc49e999e",
+      "user_id": "6c1d5117-6d02-47a2-aa33-151907bff17d",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 50000,
+      "shipping_cost": 12000,
+      "total": 62000,
+      "shipping_address": {
+        "city": "Bandung",
+        "name": "HD Test",
+        "phone": "081234567890",
+        "address": "Jl. Test 2",
+        "postal_code": "40111"
+      },
+      "created_at": "2026-08-10T14:01:45.886776+00:00",
+      "updated_at": "2026-08-10T14:01:45.886776+00:00",
+      "order_number": "SJ-20260810-CF3325"
+    },
+    {
+      "id": "25503dc5-13c1-4b5f-b940-62cf86bfadab",
+      "user_id": "e1272b10-de05-48c2-9b65-88dae1583cd8",
+      "status": "delivered",
+      "payment_status": "unpaid",
+      "subtotal": 15000,
+      "shipping_cost": 12000,
+      "total": 27000,
+      "shipping_address": {
+        "city": "Bekasi",
+        "name": "winda widodo",
+        "phone": "09662775429",
+        "address": "cibitung\nCibitung Bekasi",
+        "postalCode": "17520"
+      },
+      "created_at": "2026-08-13T11:21:28.442983+00:00",
+      "updated_at": "2026-08-13T11:22:16.018874+00:00",
+      "order_number": "SJ-20260813-FE1526"
+    },
+    {
+      "id": "d1900f93-0d4d-4401-a46c-64200361fcae",
+      "user_id": "ebdb9bdc-5750-4dcf-9c22-f5f9f6197b10",
+      "status": "pending",
+      "payment_status": "paid",
+      "subtotal": 24000,
+      "shipping_cost": 12000,
+      "total": 36000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "Midtrans E2E Test A",
+        "notes": "AUDIT E2E MIDTRANS - TEST",
+        "phone": "081234567890",
+        "address": "Jl. Test E2E No. 1",
+        "postalCode": "12345"
+      },
+      "created_at": "2026-08-13T13:40:55.049344+00:00",
+      "updated_at": "2026-08-13T13:43:12.565392+00:00",
+      "order_number": "SJ-20260813-0F45D3"
+    },
+    {
+      "id": "1e95f56d-929e-47ab-927c-24fae89a59a7",
+      "user_id": "ebdb9bdc-5750-4dcf-9c22-f5f9f6197b10",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 18000,
+      "shipping_cost": 12000,
+      "total": 30000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "Midtrans E2E Test A",
+        "notes": "AUDIT E2E MIDTRANS - TEST",
+        "phone": "081234567890",
+        "address": "Jl. Test E2E No. 1",
+        "postalCode": "12345"
+      },
+      "created_at": "2026-08-13T13:07:45.634367+00:00",
+      "updated_at": "2026-08-13T13:07:45.634367+00:00",
+      "order_number": "SJ-20260813-974037"
+    },
+    {
+      "id": "d67d030b-46a0-49ad-99e8-5cee27eea330",
+      "user_id": "ebdb9bdc-5750-4dcf-9c22-f5f9f6197b10",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 15000,
+      "shipping_cost": 12000,
+      "total": 27000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "Midtrans E2E Test A",
+        "notes": "AUDIT E2E MIDTRANS - TEST",
+        "phone": "081234567890",
+        "address": "Jl. Test E2E No. 1",
+        "postalCode": "12345"
+      },
+      "created_at": "2026-08-13T14:18:20.63888+00:00",
+      "updated_at": "2026-08-13T14:18:20.63888+00:00",
+      "order_number": "SJ-20260813-789195"
+    },
+    {
+      "id": "7ac7b386-5b5d-4a61-988e-7e79f66a1f9e",
+      "user_id": "ebdb9bdc-5750-4dcf-9c22-f5f9f6197b10",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 32000,
+      "shipping_cost": 12000,
+      "total": 44000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "Midtrans E2E Test A",
+        "notes": "AUDIT E2E MIDTRANS - TEST",
+        "phone": "081234567890",
+        "address": "Jl. Test E2E No. 1",
+        "postalCode": "12345"
+      },
+      "created_at": "2026-08-13T14:02:14.253323+00:00",
+      "updated_at": "2026-08-13T14:02:14.253323+00:00",
+      "order_number": "SJ-20260813-15E66E"
+    },
+    {
+      "id": "5f7670a6-9a77-460d-8f46-876547dc81b3",
+      "user_id": "95f265ab-6c15-4398-b034-a0a54c48d6a5",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 243000,
+      "shipping_cost": 12000,
+      "total": 255000,
+      "shipping_address": {
+        "city": "Bekasi",
+        "name": "winda widodo",
+        "phone": "09662775429",
+        "address": "cibitung\nCibitung Bekasi",
+        "postalCode": "17520"
+      },
+      "created_at": "2026-08-13T15:27:24.416412+00:00",
+      "updated_at": "2026-08-13T15:27:24.416412+00:00",
+      "order_number": "SJ-20260813-C16D25"
+    },
+    {
+      "id": "c951b434-a21d-42f2-b4a3-f02069989bec",
+      "user_id": "95f265ab-6c15-4398-b034-a0a54c48d6a5",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 55000,
+      "shipping_cost": 12000,
+      "total": 67000,
+      "shipping_address": {
+        "city": "JAKARTA",
+        "name": "USERS",
+        "phone": "09662775422",
+        "address": "JAKARTA",
+        "postalCode": "17520"
+      },
+      "created_at": "2026-08-13T15:05:49.040137+00:00",
+      "updated_at": "2026-08-13T15:29:09.080703+00:00",
+      "order_number": "SJ-20260813-A535B3"
+    },
+    {
+      "id": "ef5cc48d-a5aa-4ed6-86c7-922b7fa7fc2c",
+      "user_id": "eff9da73-a9a4-40cf-a0d4-322c72c82d79",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 85000,
+      "shipping_cost": 12000,
+      "total": 97000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "Name Fix Test",
+        "notes": "AUDIT item_details.name fix",
+        "phone": "081234567890",
+        "address": "Jl. Test Audit No. 123",
+        "postalCode": "12345"
+      },
+      "created_at": "2026-08-13T15:38:04.202863+00:00",
+      "updated_at": "2026-08-13T15:38:04.202863+00:00",
+      "order_number": "SJ-20260813-0B4318"
+    },
+    {
+      "id": "ef0033ef-1f62-4c7c-aaa4-55d493a9811c",
+      "user_id": "78eb848f-a362-4d2a-a618-b3b4d2231d2d",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 85000,
+      "shipping_cost": 12000,
+      "total": 97000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "Name Fix Test",
+        "notes": "AUDIT item_details.name fix",
+        "phone": "081234567890",
+        "address": "Jl. Test Audit No. 123",
+        "postalCode": "12345"
+      },
+      "created_at": "2026-08-13T15:38:59.500961+00:00",
+      "updated_at": "2026-08-13T15:38:59.500961+00:00",
+      "order_number": "SJ-20260813-CFD127"
+    },
+    {
+      "id": "9e050469-5fea-42eb-b9b1-0d73ec0e21da",
+      "user_id": "24ca6fb6-9077-4754-bc77-18e945290491",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 85000,
+      "shipping_cost": 12000,
+      "total": 97000,
+      "shipping_address": {
+        "city": "Jakarta",
+        "name": "Name Fix Test",
+        "notes": "AUDIT item_details.name fix",
+        "phone": "081234567890",
+        "address": "Jl. Test Audit No. 123",
+        "postalCode": "12345"
+      },
+      "created_at": "2026-08-13T15:40:53.114732+00:00",
+      "updated_at": "2026-08-13T15:40:53.114732+00:00",
+      "order_number": "SJ-20260813-0118BF"
+    },
+    {
+      "id": "a5eba352-9f89-4b8b-b251-b53ea244e6d8",
+      "user_id": "95f265ab-6c15-4398-b034-a0a54c48d6a5",
+      "status": "delivered",
+      "payment_status": "unpaid",
+      "subtotal": 15000,
+      "shipping_cost": 12000,
+      "total": 27000,
+      "shipping_address": {
+        "city": "Bekasi",
+        "name": "winda widodo",
+        "phone": "09662775429",
+        "address": "cibitung\nCibitung Bekasi",
+        "postalCode": "17520"
+      },
+      "created_at": "2026-08-13T16:18:57.481223+00:00",
+      "updated_at": "2026-08-14T02:51:58.906001+00:00",
+      "order_number": "SJ-20260813-783E04"
+    },
+    {
+      "id": "a757c91c-1b1b-4831-b747-c6b7fd32c962",
+      "user_id": "95f265ab-6c15-4398-b034-a0a54c48d6a5",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "subtotal": 95000,
+      "shipping_cost": 12000,
+      "total": 107000,
+      "shipping_address": {
+        "city": "Bekasi",
+        "name": "winda widodo",
+        "phone": "09662775429",
+        "address": "cibitung\nCibitung Bekasi",
+        "postalCode": "17520"
+      },
+      "created_at": "2026-08-14T04:11:51.623727+00:00",
+      "updated_at": "2026-08-14T04:13:21.844699+00:00",
+      "order_number": "SJ-20260814-C43461"
+    },
+    {
+      "id": "a43ac161-e623-4b6b-b153-d2cfdf5d0877",
+      "user_id": "95f265ab-6c15-4398-b034-a0a54c48d6a5",
+      "status": "pending",
+      "payment_status": "paid",
+      "subtotal": 29998,
+      "shipping_cost": 12000,
+      "total": 41998,
+      "shipping_address": {
+        "city": "Bekasi",
+        "name": "winda widodo",
+        "phone": "09662775429",
+        "address": "cibitung\nCibitung Bekasi",
+        "postalCode": "17520"
+      },
+      "created_at": "2026-08-14T12:25:17.650646+00:00",
+      "updated_at": "2026-08-14T12:30:35.985288+00:00",
+      "order_number": "SJ-20260814-40B4A2"
+    }
+  ],
+  "order_items": [
+    {
+      "id": "223fdb94-0959-4831-a8a2-c1960ac3780d",
+      "order_id": "d66e8e82-7d57-4cec-9ec7-3c5ea21a3ca8",
+      "product_id": null,
+      "product_name": "IT Prod A 1786364423161",
+      "product_image": null,
+      "price": 25000,
+      "quantity": 1,
+      "created_at": "2026-08-10T12:20:27.606935+00:00"
+    },
+    {
+      "id": "3e3a7dab-92bf-4efa-92df-5e05e99224b1",
+      "order_id": "a0eaf66b-fadf-48d2-9781-3b9faeda412d",
+      "product_id": null,
+      "product_name": "IT Prod B 1786364423161",
+      "product_image": null,
+      "price": 100000,
+      "quantity": 4,
+      "created_at": "2026-08-10T12:20:27.92082+00:00"
+    },
+    {
+      "id": "2a8788c2-109b-4516-a9ea-eac5fc41977e",
+      "order_id": "f657511f-9a23-4ce9-8b36-38ef5638d1c0",
+      "product_id": null,
+      "product_name": "IT Prod C 1786364423161",
+      "product_image": null,
+      "price": 50000,
+      "quantity": 1,
+      "created_at": "2026-08-10T12:20:28.233174+00:00"
+    },
+    {
+      "id": "a19da3d0-bafb-4685-a2c4-3368784dd382",
+      "order_id": "58768167-f52c-4e4f-981b-9baa88d307c7",
+      "product_id": null,
+      "product_name": "IT Prod A 1786365267734",
+      "product_image": null,
+      "price": 25000,
+      "quantity": 1,
+      "created_at": "2026-08-10T12:34:32.306778+00:00"
+    },
+    {
+      "id": "e41351f7-13c6-4d60-b44e-e0b87a703cb7",
+      "order_id": "7d3614fa-b336-4859-add5-f36c6a8a3a48",
+      "product_id": null,
+      "product_name": "IT Prod B 1786365267734",
+      "product_image": null,
+      "price": 100000,
+      "quantity": 4,
+      "created_at": "2026-08-10T12:34:32.620562+00:00"
+    },
+    {
+      "id": "0dfd5eb9-b234-4e7d-9b43-35653d069e0d",
+      "order_id": "b802fe66-4e80-4e99-a1ab-0bd7b867cdca",
+      "product_id": null,
+      "product_name": "IT Prod C 1786365267734",
+      "product_image": null,
+      "price": 50000,
+      "quantity": 1,
+      "created_at": "2026-08-10T12:34:32.932756+00:00"
+    },
+    {
+      "id": "f57c6bd2-0fcc-49a0-8e75-94ac7a5b53b4",
+      "order_id": "1a03818a-8cd0-403f-87c7-2ab781721768",
+      "product_id": null,
+      "product_name": "IT Prod A 1786365808027",
+      "product_image": null,
+      "price": 25000,
+      "quantity": 1,
+      "created_at": "2026-08-10T12:43:32.144962+00:00"
+    },
+    {
+      "id": "e81262a9-e141-45f8-86bb-f23d3f62b18a",
+      "order_id": "c344c391-a73e-4465-ad5c-6c241dd42efa",
+      "product_id": null,
+      "product_name": "IT Prod B 1786365808027",
+      "product_image": null,
+      "price": 100000,
+      "quantity": 4,
+      "created_at": "2026-08-10T12:43:32.458044+00:00"
+    },
+    {
+      "id": "1b75f40c-9e57-4596-9b04-b60ecb0be2da",
+      "order_id": "58e4326d-5be8-415b-972f-2da699413bd9",
+      "product_id": null,
+      "product_name": "IT Prod C 1786365808027",
+      "product_image": null,
+      "price": 50000,
+      "quantity": 1,
+      "created_at": "2026-08-10T12:43:32.767163+00:00"
+    },
+    {
+      "id": "2ca7c7a7-febc-44c0-9d93-188feef5e0ad",
+      "order_id": "456c4084-c433-4e5f-b4fe-a2cc5c748d5d",
+      "product_id": null,
+      "product_name": "E2E_TEST_PRODUCT",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/1786368092314-e2e-test-image.png",
+      "price": 30000,
+      "quantity": 3,
+      "created_at": "2026-08-10T13:22:09.223075+00:00"
+    },
+    {
+      "id": "0a1e84f3-e9f8-4182-8021-f94092b9b7a5",
+      "order_id": "51fd530e-3811-4832-94fc-db4ad9ebd922",
+      "product_id": null,
+      "product_name": "IT Prod A 1786368643638",
+      "product_image": null,
+      "price": 25000,
+      "quantity": 1,
+      "created_at": "2026-08-10T13:30:47.40808+00:00"
+    },
+    {
+      "id": "c543e333-d990-4cc2-975c-1e0c543172c1",
+      "order_id": "5042348f-5392-4d28-8318-b1dd667bdc7e",
+      "product_id": null,
+      "product_name": "IT Prod B 1786368643638",
+      "product_image": null,
+      "price": 100000,
+      "quantity": 4,
+      "created_at": "2026-08-10T13:30:47.712798+00:00"
+    },
+    {
+      "id": "1f04b7a7-f2e8-417b-a8f5-3713dc06d56c",
+      "order_id": "1590bb10-f140-42c8-8419-b330c4465ddb",
+      "product_id": null,
+      "product_name": "IT Prod C 1786368643638",
+      "product_image": null,
+      "price": 50000,
+      "quantity": 1,
+      "created_at": "2026-08-10T13:30:48.018439+00:00"
+    },
+    {
+      "id": "d3ab7939-7cc1-432e-b17c-81eb2370a329",
+      "order_id": "58d0e99a-b834-4df8-a961-3f5c4e0d5b27",
+      "product_id": null,
+      "product_name": "E2E_TEST_PRODUCT",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/1786368674554-e2e-test-image.png",
+      "price": 30000,
+      "quantity": 3,
+      "created_at": "2026-08-10T13:31:46.220732+00:00"
+    },
+    {
+      "id": "c1acd2a6-be0b-46f8-9f34-5137f062a1a3",
+      "order_id": "de2dd161-ba66-4215-b573-ab11913c63ab",
+      "product_id": null,
+      "product_name": "HD Test Product 1786370327129",
+      "product_image": null,
+      "price": 25000,
+      "quantity": 2,
+      "created_at": "2026-08-10T13:58:49.739281+00:00"
+    },
+    {
+      "id": "8617d716-fc84-48e0-9b4e-bd9d48a5544b",
+      "order_id": "b96d2174-d6a2-4fb2-b026-abb2dd0687cf",
+      "product_id": null,
+      "product_name": "IT Prod A 1786370349645",
+      "product_image": null,
+      "price": 25000,
+      "quantity": 1,
+      "created_at": "2026-08-10T13:59:13.1887+00:00"
+    },
+    {
+      "id": "8772cbc4-8616-4b30-98f0-39ecca0d7965",
+      "order_id": "64443646-2b49-4688-b253-2ea59c159a79",
+      "product_id": null,
+      "product_name": "IT Prod B 1786370349645",
+      "product_image": null,
+      "price": 100000,
+      "quantity": 4,
+      "created_at": "2026-08-10T13:59:13.499676+00:00"
+    },
+    {
+      "id": "5e04bc5c-245e-4417-9909-182442006766",
+      "order_id": "a0af3173-1ada-463c-af66-f68eff7579d8",
+      "product_id": null,
+      "product_name": "IT Prod C 1786370349645",
+      "product_image": null,
+      "price": 50000,
+      "quantity": 1,
+      "created_at": "2026-08-10T13:59:13.815442+00:00"
+    },
+    {
+      "id": "7b7ffe0f-8846-4a4c-87ec-a07c1ede4459",
+      "order_id": "3201e972-bb0c-47b8-82fc-1318333ae386",
+      "product_id": null,
+      "product_name": "E2E_TEST_PRODUCT",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/1786370384064-e2e-test-image.png",
+      "price": 30000,
+      "quantity": 3,
+      "created_at": "2026-08-10T14:00:16.284268+00:00"
+    },
+    {
+      "id": "f40cb5be-9e08-4f7f-9db6-4ca7487047f1",
+      "order_id": "7e83c3aa-759b-4f83-9f5b-567fc49e999e",
+      "product_id": null,
+      "product_name": "E2E_TEST_INACTIVE_PRODUCT 1786370503478",
+      "product_image": null,
+      "price": 25000,
+      "quantity": 2,
+      "created_at": "2026-08-10T14:01:45.886776+00:00"
+    },
+    {
+      "id": "b8a863e5-93b6-4ba2-8db2-bea36b54c479",
+      "order_id": "25503dc5-13c1-4b5f-b940-62cf86bfadab",
+      "product_id": "be62743e-464b-4438-a108-536e1c37fb82",
+      "product_name": "Keripik Kentang Rasa Bawang 250g",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/product-img-4.jpg",
+      "price": 15000,
+      "quantity": 1,
+      "created_at": "2026-08-13T11:21:28.442983+00:00"
+    },
+    {
+      "id": "a243c80c-e6e6-4d70-b9bf-113859e158b1",
+      "order_id": "1e95f56d-929e-47ab-927c-24fae89a59a7",
+      "product_id": "27773118-c2c1-4d4d-b9c6-2b99aa1f4f4b",
+      "product_name": "Sev Bhujia Haldiram 200g",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/product-img-1.jpg",
+      "price": 18000,
+      "quantity": 1,
+      "created_at": "2026-08-13T13:07:45.634367+00:00"
+    },
+    {
+      "id": "4802f294-09b9-4707-ac43-a7eadc91e0f3",
+      "order_id": "d1900f93-0d4d-4401-a46c-64200361fcae",
+      "product_id": "6393b632-705f-4c97-913f-81762d7b1369",
+      "product_name": "Biskuit Digestive NutriChoice 250g",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/product-img-2.jpg",
+      "price": 24000,
+      "quantity": 1,
+      "created_at": "2026-08-13T13:40:55.049344+00:00"
+    },
+    {
+      "id": "079e0ab4-6142-45d6-a310-9e72d45bc976",
+      "order_id": "7ac7b386-5b5d-4a61-988e-7e79f66a1f9e",
+      "product_id": "f5066a5c-73af-4080-9b32-cec6a9706c42",
+      "product_name": "Cokelat Cadbury 5 Star 1kg",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/product-img-3.jpg",
+      "price": 32000,
+      "quantity": 1,
+      "created_at": "2026-08-13T14:02:14.253323+00:00"
+    },
+    {
+      "id": "09dcdc65-9c26-49cb-8642-2761e71c72a4",
+      "order_id": "d67d030b-46a0-49ad-99e8-5cee27eea330",
+      "product_id": "26886f61-d04e-41b8-98f6-f3523914cffe",
+      "product_name": "Popcorn Instan Rasa Garam 100g",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/product-img-5.jpg",
+      "price": 15000,
+      "quantity": 1,
+      "created_at": "2026-08-13T14:18:20.63888+00:00"
+    },
+    {
+      "id": "196e60b5-3458-4e2a-9ea4-8890ddc8e37e",
+      "order_id": "c951b434-a21d-42f2-b4a3-f02069989bec",
+      "product_id": "503f194c-6ee7-43ea-9bff-c5cd1585121d",
+      "product_name": "Jeruk Santang",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/1786617592455-jeruk-santang.jpg",
+      "price": 55000,
+      "quantity": 1,
+      "created_at": "2026-08-13T15:05:49.040137+00:00"
+    },
+    {
+      "id": "8cb7b516-5cc5-43e2-bfc5-90d72e00ce1f",
+      "order_id": "5f7670a6-9a77-460d-8f46-876547dc81b3",
+      "product_id": "49b6c3d2-fdc3-46a8-8dbe-b50c69bac2ad",
+      "product_name": "ELVICTO PAKET GANTENG B | BRIGHTENING SERUM, MOISTURIZER",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/1786625952731-cuci-wajah.jpg",
+      "price": 243000,
+      "quantity": 1,
+      "created_at": "2026-08-13T15:27:24.416412+00:00"
+    },
+    {
+      "id": "9ce63174-ecd5-4643-8fa3-3f4e61bb361c",
+      "order_id": "ef5cc48d-a5aa-4ed6-86c7-922b7fa7fc2c",
+      "product_id": "f0d06d17-41da-448b-9fe7-8b777b00ca6c",
+      "product_name": "PROMO!!! Beras Super Pulen Daun Suji Pandan Wangi kemasan laminasi 5kg",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/1786617744382-beras.jpg",
+      "price": 85000,
+      "quantity": 1,
+      "created_at": "2026-08-13T15:38:04.202863+00:00"
+    },
+    {
+      "id": "e1d8176e-213d-442f-b950-3f237ec34e5a",
+      "order_id": "ef0033ef-1f62-4c7c-aaa4-55d493a9811c",
+      "product_id": "f0d06d17-41da-448b-9fe7-8b777b00ca6c",
+      "product_name": "PROMO!!! Beras Super Pulen Daun Suji Pandan Wangi kemasan laminasi 5kg",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/1786617744382-beras.jpg",
+      "price": 85000,
+      "quantity": 1,
+      "created_at": "2026-08-13T15:38:59.500961+00:00"
+    },
+    {
+      "id": "ee8b6b97-74a1-48d8-a2ca-e99a403f64e6",
+      "order_id": "9e050469-5fea-42eb-b9b1-0d73ec0e21da",
+      "product_id": "f0d06d17-41da-448b-9fe7-8b777b00ca6c",
+      "product_name": "PROMO!!! Beras Super Pulen Daun Suji Pandan Wangi kemasan laminasi 5kg",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/1786617744382-beras.jpg",
+      "price": 85000,
+      "quantity": 1,
+      "created_at": "2026-08-13T15:40:53.114732+00:00"
+    },
+    {
+      "id": "f13f133a-f3ee-4eaf-9800-307513e2e7e8",
+      "order_id": "a5eba352-9f89-4b8b-b251-b53ea244e6d8",
+      "product_id": "be62743e-464b-4438-a108-536e1c37fb82",
+      "product_name": "Keripik Kentang Rasa Bawang 250g",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/product-img-4.jpg",
+      "price": 15000,
+      "quantity": 1,
+      "created_at": "2026-08-13T16:18:57.481223+00:00"
+    },
+    {
+      "id": "5c54fa7d-8d11-402c-aafb-c669b87a12aa",
+      "order_id": "a757c91c-1b1b-4831-b747-c6b7fd32c962",
+      "product_id": "bdf5cb32-5ca9-4453-ac00-d6504795e81c",
+      "product_name": "Ikan Salmon Fillet 250g",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/1786598297392-Ikan-Salmon.jpg",
+      "price": 95000,
+      "quantity": 1,
+      "created_at": "2026-08-14T04:11:51.623727+00:00"
+    },
+    {
+      "id": "a735be39-dbf0-4357-ab7f-3fe9c4db5073",
+      "order_id": "a43ac161-e623-4b6b-b153-d2cfdf5d0877",
+      "product_id": "dc92f8fd-a1b3-40d4-9197-a4992b72606e",
+      "product_name": "Kopi Susu Gula Aren",
+      "product_image": "https://xfkxzckbjvdgycgkspgg.supabase.co/storage/v1/object/public/product-images/products/1786617298429-susu-aren.png",
+      "price": 14999,
+      "quantity": 2,
+      "created_at": "2026-08-14T12:25:17.650646+00:00"
+    }
+  ],
+  "midtrans_transactions": [
+    {
+      "id": "85153094-3658-4d82-91f1-9cb75426c3c1",
+      "order_id": "d1900f93-0d4d-4401-a46c-64200361fcae",
+      "transaction_id": "e8f4aa5b-91e0-466b-8169-587f406cbd62",
+      "snap_token": "7dc3b19c-1d3b-4d08-9ce3-d200c2414a2c",
+      "snap_redirect_url": "https://app.sandbox.midtrans.com/snap/v4/redirection/7dc3b19c-1d3b-4d08-9ce3-d200c2414a2c",
+      "status": "capture",
+      "amount": 36000,
+      "created_at": "2026-08-13T13:41:00.065601+00:00",
+      "updated_at": "2026-08-13T13:43:12.41873+00:00"
+    },
+    {
+      "id": "2e00ebbd-0700-4d02-89cc-eaed1afc8d68",
+      "order_id": "7ac7b386-5b5d-4a61-988e-7e79f66a1f9e",
+      "transaction_id": null,
+      "snap_token": "9201bde1-86b2-4638-8937-1c49c50dbe8d",
+      "snap_redirect_url": "https://app.sandbox.midtrans.com/snap/v4/redirection/9201bde1-86b2-4638-8937-1c49c50dbe8d",
+      "status": "pending",
+      "amount": 44000,
+      "created_at": "2026-08-13T14:02:15.046434+00:00",
+      "updated_at": "2026-08-13T14:02:15.046434+00:00"
+    },
+    {
+      "id": "1dac6b7a-82f9-4f4b-8817-7a86206fa9a8",
+      "order_id": "1e95f56d-929e-47ab-927c-24fae89a59a7",
+      "transaction_id": null,
+      "snap_token": "e97af938-7b8a-4033-96a6-027d05a7792a",
+      "snap_redirect_url": "https://app.sandbox.midtrans.com/snap/v4/redirection/e97af938-7b8a-4033-96a6-027d05a7792a",
+      "status": "pending",
+      "amount": 30000,
+      "created_at": "2026-08-13T13:07:46.917023+00:00",
+      "updated_at": "2026-08-13T14:16:55.542769+00:00"
+    },
+    {
+      "id": "3ebc91d3-09fc-40b3-8a0a-a40807204d4f",
+      "order_id": "d67d030b-46a0-49ad-99e8-5cee27eea330",
+      "transaction_id": null,
+      "snap_token": "2d4176cf-a370-4825-b7a9-a672923ffcad",
+      "snap_redirect_url": "https://app.sandbox.midtrans.com/snap/v4/redirection/2d4176cf-a370-4825-b7a9-a672923ffcad",
+      "status": "pending",
+      "amount": 27000,
+      "created_at": "2026-08-13T14:18:21.582465+00:00",
+      "updated_at": "2026-08-13T14:18:21.582465+00:00"
+    },
+    {
+      "id": "2829850a-7fb1-4403-8684-896dcb37da0f",
+      "order_id": "c951b434-a21d-42f2-b4a3-f02069989bec",
+      "transaction_id": "148eac39-f53d-47a3-8a11-1fc0c12c6c0c",
+      "snap_token": "e3fe9404-3d75-466a-bbed-0dca5abf7cd4",
+      "snap_redirect_url": "https://app.sandbox.midtrans.com/snap/v4/redirection/e3fe9404-3d75-466a-bbed-0dca5abf7cd4",
+      "status": "pending",
+      "amount": 67000,
+      "created_at": "2026-08-13T15:06:49.212902+00:00",
+      "updated_at": "2026-08-13T15:29:08.850666+00:00"
+    },
+    {
+      "id": "2b495cc4-5f3e-4dc2-9749-8c5bdaf0cc09",
+      "order_id": "9e050469-5fea-42eb-b9b1-0d73ec0e21da",
+      "transaction_id": null,
+      "snap_token": "7a5bd5f1-0c83-41ea-878e-4e1398f95610",
+      "snap_redirect_url": "https://app.sandbox.midtrans.com/snap/v4/redirection/7a5bd5f1-0c83-41ea-878e-4e1398f95610",
+      "status": "pending",
+      "amount": 97000,
+      "created_at": "2026-08-13T15:41:01.507521+00:00",
+      "updated_at": "2026-08-13T15:41:01.507521+00:00"
+    },
+    {
+      "id": "2a7cc663-d36f-48ef-954e-2f15e9718864",
+      "order_id": "5f7670a6-9a77-460d-8f46-876547dc81b3",
+      "transaction_id": null,
+      "snap_token": "84872875-e855-4e75-8ccf-be1dfbda16e4",
+      "snap_redirect_url": "https://app.sandbox.midtrans.com/snap/v4/redirection/84872875-e855-4e75-8ccf-be1dfbda16e4",
+      "status": "pending",
+      "amount": 255000,
+      "created_at": "2026-08-13T15:42:41.189312+00:00",
+      "updated_at": "2026-08-13T15:44:01.936691+00:00"
+    },
+    {
+      "id": "09929e0d-20cd-4e58-9ce7-94f738aaeb23",
+      "order_id": "a5eba352-9f89-4b8b-b251-b53ea244e6d8",
+      "transaction_id": null,
+      "snap_token": "78fc6f52-c2a0-45ac-b924-e30cad236642",
+      "snap_redirect_url": "https://app.sandbox.midtrans.com/snap/v4/redirection/78fc6f52-c2a0-45ac-b924-e30cad236642",
+      "status": "pending",
+      "amount": 27000,
+      "created_at": "2026-08-13T16:19:08.210098+00:00",
+      "updated_at": "2026-08-13T16:19:08.210098+00:00"
+    },
+    {
+      "id": "0c00a11b-d42c-4507-aee6-054868cdcdbc",
+      "order_id": "a757c91c-1b1b-4831-b747-c6b7fd32c962",
+      "transaction_id": "a221f576-694a-4b4b-bb2a-c60c09e2dfd7",
+      "snap_token": "56f5467b-1ada-4196-9e21-7b3d76b3f23d",
+      "snap_redirect_url": "https://app.sandbox.midtrans.com/snap/v4/redirection/56f5467b-1ada-4196-9e21-7b3d76b3f23d",
+      "status": "pending",
+      "amount": 107000,
+      "created_at": "2026-08-14T04:12:00.548373+00:00",
+      "updated_at": "2026-08-14T04:13:21.531682+00:00"
+    },
+    {
+      "id": "6d7fc2a4-e265-47a7-bfb6-7b76aa3e3140",
+      "order_id": "a43ac161-e623-4b6b-b153-d2cfdf5d0877",
+      "transaction_id": "87ba57e5-97a9-4678-bbe4-22a80015413f",
+      "snap_token": "04ebaab3-8fc3-48c0-ac8a-f590b1a607be",
+      "snap_redirect_url": "https://app.sandbox.midtrans.com/snap/v4/redirection/04ebaab3-8fc3-48c0-ac8a-f590b1a607be",
+      "status": "settlement",
+      "amount": 41998,
+      "created_at": "2026-08-14T12:25:23.929279+00:00",
+      "updated_at": "2026-08-14T12:30:35.71715+00:00"
+    }
+  ]
+}
