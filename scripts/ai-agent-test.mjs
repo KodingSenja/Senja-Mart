@@ -266,7 +266,7 @@ async function httpTests() {
   let customerId = null;
   {
     const email = `ai-http-${Date.now()}@senjamart.test`;
-    const pass = 'SenjaMart-AI-2026!x';
+    const pass = process.env.E2E_CUST_PASSWORD;
     const anon = createClient(URL, K, { auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false } });
     const { error: su } = await anon.auth.signUp({ email, password: pass });
     if (su) { fail('HTTP customer signup', su.message); }

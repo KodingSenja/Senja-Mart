@@ -20,12 +20,12 @@ const IMG = new URL('../scripts/e2e-test-image.png', import.meta.url).pathname;
 const SLUG = 'e2etestproduct'; // slugify('E2E_TEST_PRODUCT') as produced by lib/utils/slugify
 
 // Test data (credentials are internal, never printed).
-// Admin creds come from env (IT_ADMIN_EMAIL/IT_PASSWORD) with a legacy fallback.
-const ADMIN_EMAIL = process.env.IT_ADMIN_EMAIL || 'it-1786364423161-ioxyav-a@senjamart.test';
-const ADMIN_PASS = process.env.IT_PASSWORD || 'SenjaMart-IT-2026!x';
+// Admin creds come from env (IT_ADMIN_EMAIL/IT_PASSWORD).
+const ADMIN_EMAIL = process.env.IT_ADMIN_EMAIL;
+const ADMIN_PASS = process.env.IT_PASSWORD;
 const CUST_NAME = 'E2E Test Customer';
 const CUST_EMAIL = `e2e-${Date.now()}-cust@senjamart.test`;
-const CUST_PASS = 'SenjaMart-E2E-2026!x';
+const CUST_PASS = process.env.E2E_CUST_PASSWORD;
 
 const results = [];
 const record = (name, ok, ev = '') => {

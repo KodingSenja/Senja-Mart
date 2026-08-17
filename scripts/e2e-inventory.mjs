@@ -480,7 +480,7 @@ try {
     await waitFor(cdp, `document.querySelector('#loginName')`, 15000, 'register form');
     await type(cdp, '#loginName', custName);
     await type(cdp, '#loginEmail', custEmail);
-    await type(cdp, '#loginPassword', 'SenjaMart-Inv-2026!x');
+    await type(cdp, '#loginPassword', process.env.E2E_CUST_PASSWORD);
     await submitForm(cdp, 'Daftar');
     await waitFor(cdp, `location.pathname.includes('/senjamart/profile')`, 45000, 'redirect profile');
 

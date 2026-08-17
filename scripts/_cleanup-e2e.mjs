@@ -4,7 +4,7 @@ import { createClient } from '@supabase/supabase-js';
 const U = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const K = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 const EMAIL = process.env.IT_ADMIN_EMAIL || '';
-const PW = process.env.IT_PASSWORD || 'SenjaMart-IT-2026!x';
+const PW = process.env.IT_PASSWORD;
 
 const base = createClient(U, K, { auth: { persistSession: false, autoRefreshToken: false } });
 const { data: s, error: le } = await base.auth.signInWithPassword({ email: EMAIL, password: PW });

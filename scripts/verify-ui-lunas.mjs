@@ -12,7 +12,7 @@ import { createClient } from '@supabase/supabase-js';
 const BASE = 'http://localhost:3000';
 const PORT = 9232;
 const PROFILE = '/tmp/chrome-lunas';
-const PASS = 'SenjaMart-E2E-2026!x';
+const PASS = process.env.E2E_CUST_PASSWORD;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 class CDP {

@@ -38,7 +38,7 @@ const admin = createClient(U, SK, { auth: { persistSession: false, autoRefreshTo
 
 async function makeCustomer(tag) {
   const email = `rls-test-${tag}-${Date.now()}@senjamart.test`;
-  const pass = 'SenjaMart-RLS-2026!x';
+  const pass = process.env.E2E_CUST_PASSWORD;
   const anon = createClient(U, K, { auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false } });
   const { error: signUpErr } = await anon.auth.signUp({ email, password: pass });
   if (signUpErr) throw new Error('signUp: ' + signUpErr.message);

@@ -381,7 +381,7 @@ async function registerAndCheckout(cdp, fullName, email) {
   await waitFor(cdp, `document.querySelector('#loginName')`, 15000, 'register form');
   await type(cdp, '#loginName', fullName);
   await type(cdp, '#loginEmail', email);
-  await type(cdp, '#loginPassword', 'SenjaMart-E2E-2026!x');
+  await type(cdp, '#loginPassword', process.env.E2E_CUST_PASSWORD);
   await evalJs(cdp, `(() => { const b=[...document.querySelectorAll('button[type=submit]')].find(x=>(x.textContent||'').trim()==='Daftar'); if(b) b.click(); return !!b; })()`);
   await waitFor(cdp, `location.pathname.includes('/senjamart/profile')`, 45000, 'redirect profile');
 

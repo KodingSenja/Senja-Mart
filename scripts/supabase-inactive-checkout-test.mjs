@@ -40,12 +40,12 @@ const makeClient = () =>
   });
 
 const anon = makeClient();
-const PASSWORD = 'SenjaMart-IT-2026!x';
+const PASSWORD = process.env.IT_PASSWORD || '';
 const ts = Date.now();
 const rand = Math.random().toString(36).slice(2, 8);
 
 const adminEmail = process.env.IT_ADMIN_EMAIL || '';
-const adminPw = process.env.IT_PASSWORD || PASSWORD;
+const adminPw = PASSWORD;
 
 if (!adminEmail) {
   console.log('ABORT: IT_ADMIN_EMAIL env required (existing test admin account).');

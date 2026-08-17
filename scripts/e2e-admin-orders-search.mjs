@@ -82,7 +82,7 @@ try {
   await cdp.send('Page.navigate', { url: `${BASE}/senjamart/login?redirect=/admin/senjamart` }); await sleep(2500);
   await wait(cdp, `document.querySelector('#loginEmail')`, 60000, 'login form');
   await type(cdp, '#loginEmail', process.env.IT_ADMIN_EMAIL || '');
-  await type(cdp, '#loginPassword', process.env.IT_PASSWORD || 'SenjaMart-IT-2026!x');
+  await type(cdp, '#loginPassword', process.env.IT_PASSWORD);
   await submit(cdp, 'Masuk');
   await wait(cdp, `location.pathname.includes('/admin/senjamart')`, 45000, 'admin redirect');
 

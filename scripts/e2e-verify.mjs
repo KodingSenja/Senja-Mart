@@ -4,8 +4,8 @@ import { createClient } from '@supabase/supabase-js';
 const U = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const K = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 const ADMIN_EMAIL = process.env.IT_ADMIN_EMAIL || '';
-const ADMIN_PASS = process.env.IT_PASSWORD || 'SenjaMart-IT-2026!x';
-const CUST_PASS = process.env.E2E_CUST_PASSWORD || 'SenjaMart-E2E-2026!x';
+const ADMIN_PASS = process.env.IT_PASSWORD;
+const CUST_PASS = process.env.E2E_CUST_PASSWORD;
 
 const base = createClient(U, K, { auth: { persistSession: false, autoRefreshToken: false } });
 const { data: s, error: le } = await base.auth.signInWithPassword({ email: ADMIN_EMAIL, password: ADMIN_PASS });
@@ -49,7 +49,7 @@ console.log('CART_ITEMS after checkout (expect 0):', JSON.stringify(cart));
 // by creating a second throwaway customer via API and trying to read the E2E customer's order.
 const { data: reg } = await base.auth.signUp({
   email: `e2e-sec-${Date.now()}@senjamart.test`,
-  password: 'SenjaMart-E2E-2026!x',
+  password: process.env.E2E_CUST_PASSWORD,
   options: { data: { full_name: 'E2E Security Probe' } },
 });
 if (reg.session) {
